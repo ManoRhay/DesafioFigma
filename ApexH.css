@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #5271ff;
+    padding: 10px 20px;
+}
+
+.headerctn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-inicial ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-inicial ul li {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes .registrar,
+.botoes .login {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.botoes .login {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.all-cars {
+    padding: 20px;
+}
+
+.carros-relembre {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-left: 10px solid;
+}
+
+.carros-relembre:nth-child(1) {
+    border-color: #2a3a8b;
+}
+
+.carros-relembre:nth-child(2) {
+    border-color: #00bfa5;
+}
+
+.carros-relembre:nth-child(3) {
+    border-color: #1a237e;
+}
+
+.carros-relembre:nth-child(4) {
+    border-color: #d32f2f;
+}
+
+.carros-relembre:nth-child(5) {
+    border-color: #ff6f00;
+}
+
+.carros-relembre h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.carros-relembre p {
+    color: #fff;
+}
+
+.carros-relembre img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.assistir-button {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2c2c2c;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    height: 50px;
+    margin-bottom: 10px;
+}
